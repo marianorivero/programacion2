@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 5</title>
+</head>
+<body>
+	<form action="post6.php" method="POST">
+		<h1>Formulario</h1>
+
+		<input type="text" name="nombre" placeholder="Nombre" required="true">
+		<br><br>
+
+		<input type="text" name="apellido" placeholder="Apellido">
+		<br><br>
+
+		<input type="number" name="dni" placeholder="DNI">
+		<br><br>
+
+		<p>Fecha de nacimiento</p>
+		<input type="date" name="fecha_nac">
+		<br><br>
+
+		<input type="email" name="email" placeholder="E-mail">
+		<br><br>
+
+
+		<p>Provincia</p>
+		<select name="provincia">
+			<option value="Buenos_Aires">Buenos Aires</option>
+			<option value="CABA">CABA</option>
+			<option value="Catamarca">Catamarca</option>
+			<option value="Chaco">Chaco</option>
+			<option value="Chubut">Chubut</option>
+			<option value="Cordoba">Cordoba</option>
+			<option value="Corrientes">Corrientes</option>
+			<option value="Entre_Rios">Entre Rios</option>
+			<option value="Formosa">Formosa</option>
+			<option value="Jujuy">Jujuy</option>
+			<option value="La_Pampa">La Pampa</option>
+			<option value="La_Rioja">La Rioja</option>
+			<option value="Mendoza">Mendoza</option>
+			<option value="Misiones">Misiones</option>
+			<option value="Neuquen">Neuquen</option>
+			<option value="Rio_Negro">Rio Negro</option>
+			<option value="Salta">Salta</option>
+			<option value="San_Juan">San Juan</option>
+			<option value="San_Luis">San Luis</option>			
+			<option value="Santa_Cruz">Santa Cruz</option>
+			<option value="Santa_Fe">Santa Fe</option>
+			<option value="Santiago_del_Estero">Santiago del Estero</option>
+			<option value="Tierra_del_Fuego">Tierra del Fuego</option>
+			<option value="Tucuman">Tucuman</option>
+		</select>
+		<br><br>
+
+		<p>¿Es donante?</p>
+		<input type="radio" name="radio" value="si"> Si 
+		<br>
+		<input type="radio" name="radio" value="no"> No
+		<br><br>
+
+		<input type="checkbox" name="terminos"> Aceptar Términos y condiciones.
+		<br><br>
+
+
+		<button type="submit"> ENVIAR </button>
+	</form>
+</body>
+</html>
