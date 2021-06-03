@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript"></script>
+	<title>ejercicio 9</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    //1) Arreglo.
+    var nombres = ["Anibal","Oscar","Ramon","Cecilia","Mariano","Antonio"];
+    console.log(nombres);
+
+
+
+    //2)Modificar 'Cecilia', que aparezca antes que ramon.
+    var aux = nombres[2];
+    nombres[2] = nombres[3];
+    nombres[3] = aux;
+    // Usando metodo Splice:
+    //nombres.splice(2,1, "Cecilia");
+    //nombres.splice(3,1, "Ramon");
+    console.log(nombres);
+
+
+    //3)Detras de 'Anibal' y antes de 'Oscar' agregar: 'Roberto'  'Amalia'.
+    nombres.splice(1,0, "Roberto", "Amalia")
+    console.log(nombres);
+
+
+    //4) Agregar "Marta" al principio
+    nombres.unshift("Marta");
+    console.log(nombres);
+
+
+    //5)Mostrar el array ordenado de la A-Z.
+    //nombres.sort();
+    console.log(nombres.sort());
+
+
+    //6) Ordenar Z-A.
+    console.log(nombres.reverse());
+</script>
+
+
+
